@@ -1,0 +1,6 @@
+Django>=3.2,<4.0
+gunicorn>=20.0.0
+psycopg2-binary>=2.9.0
+shared-models@git+ssh://git@github.com/gopesh109/core_project.git@main#subdirectory=shared_models
+shared-utils@git+ssh://git@github.com/gopesh109/core_project.git@main#subdirectory=shared_utils
+django-core@git+ssh://git@github.com/gopesh109/core_project.git@main#subdirectory=django_core
