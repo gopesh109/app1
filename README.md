@@ -2,6 +2,8 @@
 
 This is the `app1` microservice, responsible for handling user-related features. It utilizes the shared components from the `core_project`.
 
+> **Note**: In the instructions below, `<project-root-directory>` refers to the parent directory containing the `app1`, `app2`, and `core_project` folders.
+
 ## Features
 
 -   Provides an API endpoint to list all users.
@@ -24,7 +26,7 @@ This is the easiest way to get started. The configuration is defined in the `doc
 
 1.  **Navigate to the project root:**
     ```bash
-    cd /home/gopesh/projects/tmp
+    cd <project-root-directory>
     ```
 
 2.  **Build the service image:**
@@ -44,7 +46,7 @@ This is the easiest way to get started. The configuration is defined in the `doc
 
 1.  **Navigate to the app directory:**
     ```bash
-    cd /home/gopesh/projects/tmp/app1
+    cd <project-root-directory>/app1
     ```
 
 2.  **Build the Docker image:**
@@ -63,7 +65,7 @@ This method uses your local Python environment and installs the `core_project` f
 
 1.  **Navigate to the app directory:**
     ```bash
-    cd /home/gopesh/projects/tmp/app1
+    cd <project-root-directory>/app1
     ```
 
 2.  **Create and activate a virtual environment:**
